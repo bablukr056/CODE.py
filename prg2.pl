@@ -1,3 +1,18 @@
+Input file
+
+gene1 1
+gene1 2
+gene2 3
+gene2 4
+gene5 5
+
+output 
+
+gene1 1,2
+gene2 2,3
+gene5 5
+
+#####################Perl program#################
 my $file="data.txt";
 open(FH, "<", $file) or die ("error");
 my %key_hash;
