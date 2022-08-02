@@ -1,3 +1,19 @@
+Input file
+
+gene1 1
+gene1 2
+gene2 3
+gene2 4
+gene5 5
+
+output 
+
+gene1 1,2
+gene2 2,3
+gene5 5
+
+#####################Perl program#################
+
 import re  #import regular expression module 
 
 a1=[]  #empty list  to store the value from the file 
